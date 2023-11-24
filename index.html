@@ -20,16 +20,22 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   </head>
 
   <body>
     <header class="header">
       <!-- Header with Logo & Navigate Section-->
-      <a href="index.html"><img src="img/logo.jpg" alt="logo" /> </a>
+      <a href="index.html"><img src= alt="logo" /> </a>
+
+      
+      
       <nav class="nav">
         <ul>
           <a href="HTML/Nosotros.html">Nosotros</a>
-          <a href="HTML/Guias_y_cuidados.html">Guias_y_cuidados</a>
+          <a href="HTML/Guias_y_cuidados.html">Guias y cuidados</a>
           <a href="HTML/Blog.html">Blog</a>
           <a href="HTML/Contacto.html">Contacto</a>
         </ul>
@@ -38,8 +44,50 @@
     </header>
     <br />
     <main>
-      <img src="../img/dionaea_index.webp" id="plantita" alt="" />
-      <br />
+      <!-- <img src="../img/dionaea_index.webp" id="plantita" alt="" />
+      <br /> -->
+
+
+      <!--Uso de Carrousel-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/dionaea_index.webp" class="d-block w-100" alt="Dionaea">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dionaea Muscipula</h5>
+              <p>Si las tocas te arrancan un dedo</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/Nepenthes.jpg" class="d-block w-100" alt="Nepenthes">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/sarracenia.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
       <p>
         Son, probablemente, las representantes más fascinantes del mundo
         vegetal. No solo rompen con la idea de que una planta solo necesita agua
@@ -121,5 +169,7 @@
 
       <p>© Created by YukiHero 2023, todos los derechos reservados.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

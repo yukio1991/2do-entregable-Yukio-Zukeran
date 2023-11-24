@@ -1,0 +1,60 @@
+
+.header{
+    display: flex;
+    background-color: #D1EFEC;
+    font-family: 'Lato', sans-serif;
+    align-items: first baseline;
+
+}
+
+
+
+header nav ul a{
+
+    background-color: red;    
+    text-decoration: none;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px ;
+    border-radius: 8px;
+    
+}
+
+.nav {
+    margin:10px;
+}
+
+#plantita{
+    width: 45% ;
+    margin:10px;
+}
+
+.fotito {
+    width: 40%;
+    
+}
+
+.contactanos {
+    margin: 5px;
+    width: 2em;
+}
+
+body{
+    background-color: forestgreen ;
+    color: aliceblue;
+    font-size:em;
+    font-family: 'Roboto', sans-serif;
+    margin:10px;
+}
+
+span {
+    font-size: 2em;
+    }
+
+#logotw {
+    width: 3%;
+}
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

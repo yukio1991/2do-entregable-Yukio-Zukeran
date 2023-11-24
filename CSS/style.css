@@ -6,6 +6,8 @@
     justify-items: left;
     border-color:wheat;
     border-bottom: #fafafa;
+    padding: 3px;
+    align-items: flex-end;
     
 }
 header img{

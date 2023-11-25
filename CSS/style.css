@@ -1,20 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
 
-.header{
+header{
     display: flex;
     background-color: #6E2CF3;
     font-family: 'Lato', sans-serif;
-    justify-items: left;
-    border-color:wheat;
-    border-bottom: #fafafa;
     padding: 3px;
-    align-items: flex-end;
-    
-}
+    align-items: center;
+    border-bottom: 2px solid white ;
+    }
+
 header img{
     width: 60%;
+    border: 3px solid red;
 }
 
-
+header nav ul{
+    background-color: ;
+}
 
 header nav ul a{
     color: #FFFFFF;
@@ -24,8 +30,8 @@ header nav ul a{
     margin: 4px ;
     border-radius: 8px;
     font-weight: bold;
-     ;
-    
+    text-shadow: red; 
+    border: 3.5px solid blue;
 }
 
 header nav ul a:hover{
@@ -53,14 +59,16 @@ header nav ul a:hover{
     width: 2em;
 }
 
-body{
+main{
     background-color: forestgreen ;
-    color: aliceblue;
     font-size:em;
     font-family: 'Roboto', sans-serif;
-    margin:10px;
+    
 }
 
+body{
+    background-color: black;
+}
 span {
     font-size: 2em;
     }

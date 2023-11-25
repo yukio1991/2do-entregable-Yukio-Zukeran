@@ -11,16 +11,19 @@ header{
     padding: 3px;
     align-items: center;
     border-bottom: 2px solid white ;
+    /* position: absolute;
+    top: 0px -1; */
     }
 
 header img{
     width: 60%;
-    border: 3px solid red;
+    border: 2px solid greenyellow;
+
 }
 
-header nav ul{
+/* header nav ul{
     background-color: ;
-}
+} */
 
 header nav ul a{
     color: #FFFFFF;
@@ -38,6 +41,12 @@ header nav ul a:hover{
     color: #F8F4FE;
     margin: 3px;
     
+}
+
+.hamburguesa {
+    width: 2rem;
+    position: absolute;
+    right: 10px;
 }
 
 .nav {
@@ -73,10 +82,34 @@ span {
     font-size: 2em;
     }
 
-#logotw {
-    width: 3%;
-}
 
 footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aquamarine;
+    padding: 5px;
+    align-items:  center;
+}
+
+
+
+footer ul{
+    margin: 5px;
+    display: flex;
+    
+    align-items:flex-start;
+    list-style-type: none;
+    
+
+}
+
+.social{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.social p{
+    
+    text-align: left;
 }

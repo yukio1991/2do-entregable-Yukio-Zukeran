@@ -30,7 +30,7 @@
 
 header{
     display: flex;
-    background-color: #6E2CF3;
+    background: #3498db;
     font-family: 'Lato', sans-serif;
     padding: 3px;
     align-items: center;
@@ -83,7 +83,7 @@ header nav ul a:hover{
 }
 
 .fotito {
-    width: 40%;
+    width: 320px;
     
 }
 
@@ -93,15 +93,13 @@ header nav ul a:hover{
 }
 
 main{
-    background-color: forestgreen ;
+    background: linear-gradient(to bottom, #00cc00, #ffcc00);
     font-size:em;
     font-family: 'Roboto', sans-serif;
     
 }
 
-body{
-    background-color: black;
-}
+
 span {
     font-size: 2em;
     }
@@ -109,7 +107,8 @@ span {
 
 footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: aquamarine;
+    background: #6f42c1;
+    color: #FFFFFF;
     padding: 5px;
     align-items:  center;
 }
@@ -144,3 +143,61 @@ footer ul{
     
     
 }
+
+
+/* contenedor de grillas */
+.grid-container{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    
+    row-gap: 5px;
+    column-gap: 5px;
+    
+    
+}/* 
+
+
+.grid-item{
+    border: 2px solid white;
+} */
+ .grid-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.grid-item-1{
+    border: 2px solid white;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    border-radius: 8px;
+}
+
+
+.grid-item-2{
+    border: 2px solid white;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    border-radius: 8px;
+} 
+
+.grid-item-3{
+    border: 2px solid white;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    border-radius: 8px;
+}    
+
+
+.grid-item-4{
+    border: 2px solid white;
+    grid-column: 2/4;
+    grid-row: 3/5;
+    border-radius: 8px;
+}    
+
+
+
+

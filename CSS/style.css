@@ -151,7 +151,8 @@ footer ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 150px);
-    
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
     row-gap: 5px;
     column-gap: 5px;
     

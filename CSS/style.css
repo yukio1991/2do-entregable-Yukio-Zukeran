@@ -45,9 +45,6 @@ header img{
 
 }
 
-/* header nav ul{
-    background-color: ;
-} */
 
 header nav ul a{
     color: #FFFFFF;
@@ -105,44 +102,28 @@ span {
     }
 
 
-/* footer{
+footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: #6f42c1;
-    color: #FFFFFF;
     padding: 5px;
-    align-items:  center;
-}
- */
+    
+} 
+
 
 
 footer ul{
     margin: 5px;
-    display: flex;
-    
-    align-items:flex-start;
+   display: flex;
     list-style-type: none;
     
 
-} 
-/* 
-.social{
-    padding: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
-.social p{
-    
-    text-align: left;
-    ;
-}
 
-.newsletter{
-    display: flex;
-    
-    
-} */ 
+
+
+
+
 
 
 /* contenedor de grillas */

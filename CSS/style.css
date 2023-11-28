@@ -105,14 +105,14 @@ span {
     }
 
 
-footer{
+/* footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: #6f42c1;
     color: #FFFFFF;
     padding: 5px;
     align-items:  center;
 }
-
+ */
 
 
 footer ul{
@@ -123,8 +123,8 @@ footer ul{
     list-style-type: none;
     
 
-}
-
+} 
+/* 
 .social{
     padding: 4px;
     display: flex;
@@ -142,7 +142,7 @@ footer ul{
     display: flex;
     
     
-}
+} */ 
 
 
 /* contenedor de grillas */

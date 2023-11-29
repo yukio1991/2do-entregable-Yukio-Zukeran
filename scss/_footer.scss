@@ -1,0 +1,18 @@
+
+
+@import 'utilities/mixin';
+
+
+footer{
+    @include estilo ('arial',#6f42c1,5px );/*  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:#6f42c1;
+    padding: 5px; */
+    ul{
+        margin: 5px;
+        display: flex;
+        list-style-type: none;
+    }
+    
+} 
+
+

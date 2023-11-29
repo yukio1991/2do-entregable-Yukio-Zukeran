@@ -1,0 +1,12 @@
+@mixin estilo ($fuente, $backcolor, $padding)
+    {
+        font-family: $fuente;
+        background: $backcolor;
+        padding : $padding;
+    }
+
+
+/*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:#6f42c1;
+    padding: 5px;
+*/

@@ -1,0 +1,19 @@
+/*media querys*/
+@media only screen and (max-width: 768px) {
+    .nav ul{
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        position: absolute;
+        right: 35px;
+    } 
+    
+} 
+@media only screen and (min-width: 768px) {
+    .mobile-menu {
+    display: none;
+    } 
+    
+} 
